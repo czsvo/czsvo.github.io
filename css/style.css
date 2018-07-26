@@ -1,0 +1,37 @@
+
+.nomedaclase{
+	
+
+}
+
+.boxmenu{
+	height: 60px;
+	background: green;
+}
+
+.menulist{
+	display: table;
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-top: 22px;
+	padding-right: 20px;
+}
+
+.menulist li{
+	display: inline;
+	color: white;
+	padding: 10px;
+	font-family: arial;
+	font-weight: bold;
+
+}
+
+.fontmenu{
+	font-family: arial;
+}
+
+.fontsub{
+	font-size: 25px;
+
+}

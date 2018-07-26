@@ -1,0 +1,211 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	border-bottom: 1px solid #ccc;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	position: fixed;
+	width: 100%;
+	height: 3em;
+}
+
+header ul {
+	text-align: right;
+	margin-right: 3em;
+}
+
+header li {
+	display: inline-block;
+	margin-left: 3em;
+}
+
+header li a {
+	color: #99A0B0;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.indentity {
+	background-color: #4285F4;
+	color: #FFF;
+	padding: 10em 2em 7em;
+	text-align: center;
+}
+
+.indentity h1 {
+	font-size: 2.5em;
+	margin-bottom: 0.7em;
+
+}
+
+.indentity h2 {
+	font-size: 1.5;
+	font-weight: 300;
+}
+
+.projects-header {
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+.projects-header h3 {
+	margin-top: 1em;
+
+}
+
+.projects {
+	margin-left: 40%;
+}
+
+.dark {
+	background-color: #2b313E;
+	color: #fcfcfd;
+}
+
+.light {
+	background-color: #fcfcfd;
+	color: #2B313E;
+}
+
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+section {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: left;
+	
+}
+
+section h3 {
+	font-size: 1.7em;
+	margin-bottom: 0.5;
+	text-transform: uppercase;
+}
+
+section img {
+	width: 100%;
+	max-width: 300px;
+}
+
+.projects li {
+	background-color: #6F768B;
+	padding: 1em;
+	margin-bottom: 2em;
+
+}
+
+.projects li a { 
+	color: #fff;
+	font-size: 1.3em;
+}
+
+.projects li p {
+	color: #d2d6e2;
+	margin-top: 0.5em;
+	text-align: justify;
+	line-height: 1.2;
+}
+
+
+#projetos img {
+	width: 200px;
+}
+
+#sobre {
+
+	position: relative;
+}
+
+#sobre p.bio {
+	color: #4285f4;
+	font-size: 1.5em;
+	margin: 1em;
+	padding: 1em 0;
+
+}
+
+#sobre p.text {
+	margin: 20px;
+	text-align: justify;
+	line-height: 1.4;
+
+
+}
+
+#sobre p.bio, #sobre p.text {
+	width: 50%;
+}
+
+#sobre img {
+	width: 260px; 
+	position: absolute;
+	top: 2.3em;
+	right: 10%;
+}
+
+#contato {
+	text-align: center;
+
+}
+
+#contato li {
+	display: inline-block;
+}
+
+#contato .redondo a {
+	border-radius: 48px;
+}
+
+#contato li a {
+	display: block;
+	margin: 1em;
+	background-size: 48px;
+	font-size: 0;
+	width: 48px;
+	height: 48px
+}
+
+#contato .email {
+	background-image: url('fotos/em.png');
+}
+
+#contato .twitter {
+	background-image: url('fotos/twi.jpg');
+}
+
+#contato .github {
+	background-image: url('fotos/git.jpg');
+}
+
+#contato .facebook {
+	background-image: url('fotos/face.png');
+}
+
+#contato .linkedin {
+	background-image: url('fotos/link.jpg');
+}
+
+#contato p.text {
+	margin: 1em
+
+}
+
+footer {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
